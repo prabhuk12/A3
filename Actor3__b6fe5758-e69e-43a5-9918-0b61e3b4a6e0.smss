@@ -1,0 +1,12 @@
+Base Properties
+ENGINE	b6fe5758-e69e-43a5-9918-0b61e3b4a6e0
+ENGINE_ALIAS	Actor3
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+RDBMS_INSIGHTS_TYPE	H2_DB
+OWL	db/@ENGINE@/Actor3_OWL.OWL
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768

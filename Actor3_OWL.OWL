@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Actor">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<Class xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="TYPE:STRING"/>
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#">noData</domain>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/Actor"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Actor</Conceptual>
+	<LEGACY_PRIM_KEY xmlns="http://semoss.org/ontologies/Relation/">Actor</LEGACY_PRIM_KEY>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Actor/Actor">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Actor">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Actor/Actor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Actor/Actor">
+	<Class xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Actor/Actor"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Actor</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/BestActor/Actor">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Actor">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/BestActor/Actor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/BestActor/Actor">
+	<Class xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/BestActor/Actor"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">BestActor</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Role/Actor">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Actor">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Role/Actor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Role/Actor">
+	<Class xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Role/Actor"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Role</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Title/Actor">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Actor">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Title/Actor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Title/Actor">
+	<Class xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Title/Actor"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Title</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Year/Actor">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Actor">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Year/Actor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Year/Actor">
+	<Class xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Year/Actor"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Year</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:08:28 22:42:11</TIME>
+</rdf:Description>
+
+</rdf:RDF>
